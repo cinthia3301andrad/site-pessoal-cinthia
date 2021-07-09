@@ -1,5 +1,5 @@
 import OnePage from './pages/onePage';
-import './global.scss';
+import './styles/global.scss';
 function App() {
   return <OnePage />;
 }

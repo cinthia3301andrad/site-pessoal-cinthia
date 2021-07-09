@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+.page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px 35px;
+
+  border-bottom: 1px solid $color-primary;
+
+  &-title {
+    color: $color-primary;
+    font: 600 1.3rem 'Inter', sans-serif;
+  }
+}
+.page__header-nav {
+  width: 50%;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+      gap: 1;
+      list-style-type: none;
+
+      font: 600 1rem 'Inter', sans-serif;
+      transform: filter 0.1s;
+      &:hover {
+        filter: brightness(0.7);
+      }
+    }
+
+    .contato {
+      padding: 5px 20px;
+      border-radius: 5px;
+      background: $color-primary;
+
+      font-weight: 400;
+      color: $white;
+    }
+  }
+}
