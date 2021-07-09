@@ -10,7 +10,7 @@ const Header: React.FC = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">Quem sou</a>
+            <a href="#about">Quem sou</a>
           </li>
           <li>
             <a href="#">Experiência</a>
