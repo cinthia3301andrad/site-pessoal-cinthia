@@ -1,4 +1,6 @@
+import Header from '../../components/Header';
+
 const OnePage: React.FC = () => {
-  return <h1>Teste</h1>;
+  return <Header />;
 };
 export default OnePage;
