@@ -1,9 +1,7 @@
-import OnePage from "./pages/onePage";
+import OnePage from './pages/onePage';
 
 function App() {
-  return (
-    <OnePage/>
-  );
+  return <OnePage />;
 }
 
 export default App;
