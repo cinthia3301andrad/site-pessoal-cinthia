@@ -5,11 +5,23 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 25px 35px;
+  height: 80px;
+
+  padding: 0 35px;
 
   border-bottom: 1px solid $color-primary;
+}
+.page__header-left {
+  display: flex;
+  align-items: center;
 
-  &-title {
+  img {
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    margin-left: 10px;
     color: $color-primary;
     font: 600 1.3rem 'Inter', sans-serif;
   }

@@ -1,9 +1,13 @@
+import iconMy from '../../assets/imagens/my.jpeg';
 import './styles.scss';
 
 const Header: React.FC = () => {
   return (
     <header className="page__header">
-      <h1 className="page__header-title">Cinthia Andrade</h1>
+      <div className="page__header-left">
+        <img src={iconMy} alt="Cinthia Andrade" />
+        <h1>Cinthia Andrade</h1>
+      </div>
       <nav className="page__header-nav">
         <ul>
           <li>

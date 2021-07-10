@@ -16,10 +16,12 @@
 
   padding: 10px 25px;
 
-  width: 40%;
+  max-width: 500px;
+  width: 45%;
   height: 65%;
 
   h1 {
+    height: 200px;
     color: $title;
     font: 700 2.7rem 'Poppins', sans-serif;
   }
