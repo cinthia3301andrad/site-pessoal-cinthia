@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import iconDark from '../../assets/imagens/night-mode.png';
 import iconLight from '../../assets/imagens/brightness.png';
 
+import './styles.scss';
 interface ColorsProps {
   white: string | undefined;
   background: string | undefined;

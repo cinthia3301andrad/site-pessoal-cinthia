@@ -1,4 +1,5 @@
 import iconMy from '../../assets/imagens/my.jpeg';
+import ModeDark from '../ModeDark';
 import './styles.scss';
 
 const Header: React.FC = () => {
@@ -25,6 +26,7 @@ const Header: React.FC = () => {
           <li className="contato">
             <a href="#">Contato</a>
           </li>
+          <ModeDark />
         </ul>
       </nav>
     </header>
