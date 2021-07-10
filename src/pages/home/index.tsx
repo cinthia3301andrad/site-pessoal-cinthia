@@ -1,8 +1,10 @@
 import Typewriter from 'typewriter-effect';
+import ModeDark from '../../components/ModeDark';
 import './styles.scss';
 const Home: React.FC = () => {
   return (
     <section className="container__home" id="home">
+      <ModeDark />
       <div className="home-left">
         <h1>
           Olá! <strong>Eu sou </strong>

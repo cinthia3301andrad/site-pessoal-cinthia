@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import '../styles/variables.scss';
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +18,8 @@
 }
 
 body {
-  background: $background;
-  color: $title;
+  background: var(--background);
+  color: var(--title);
   font-family: 'Poppins', sans-serif;
 }
 

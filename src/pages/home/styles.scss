@@ -1,9 +1,7 @@
-@import '../../styles/variables.scss';
-
 .container__home {
   display: flex;
   align-items: center;
-  background: $white;
+  background: var(--background-security);
 
   height: calc(100vh - 80px);
   width: 100%;
@@ -22,15 +20,15 @@
 
   h1 {
     height: 200px;
-    color: $title;
+    color: var(--title);
     font: 700 2.7rem 'Poppins', sans-serif;
   }
   p {
     font-size: 1rem;
     font-weight: 500;
-    color: $text-security;
+    color: var(--text-security);
   }
   strong {
-    color: $color-primary;
+    color: var(--color-primary);
   }
 }
