@@ -37,8 +37,10 @@
 
       font: 600 1rem 'Inter', sans-serif;
       transform: filter 0.1s;
+      transition: all 0.25s ease-in-out;
+
       &:hover {
-        filter: brightness(0.7);
+        filter: brightness(0.6);
       }
     }
 
